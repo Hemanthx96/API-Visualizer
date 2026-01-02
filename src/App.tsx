@@ -129,7 +129,35 @@ export const App = (): JSX.Element => {
     <div className="app-shell">
       <header className="app-header">
         <div className="app-title-block">
-          <h1 className="app-title">API Explorer</h1>
+          <h1 className="app-title">
+            <svg
+              className="app-logo"
+              width="24"
+              height="24"
+              viewBox="0 0 64 64"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="64" height="64" rx="8" fill="#4b5563" />
+              <path
+                d="M 20 18 L 20 46 M 16 18 Q 16 18, 20 22 Q 20 26, 16 30 M 16 34 Q 20 38, 20 42 Q 16 42, 16 46"
+                fill="none"
+                stroke="white"
+                strokeWidth="2.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+              <path
+                d="M 44 18 L 44 46 M 48 18 Q 48 18, 44 22 Q 44 26, 48 30 M 48 34 Q 44 38, 44 42 Q 48 42, 48 46"
+                fill="none"
+                stroke="white"
+                strokeWidth="2.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+            API Explorer
+          </h1>
           <p className="app-subtitle">
             Lightweight Postman-style client for exploring JSON APIs visually.
           </p>
